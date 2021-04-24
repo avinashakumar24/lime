@@ -3,7 +3,9 @@
 [![Build Status](https://travis-ci.org/marcotcr/lime.svg?branch=master)](https://travis-ci.org/marcotcr/lime)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marcotcr/lime/master)
 
-This project is about explaining what machine learning classifiers (or models) are doing.
+This is the CS 301 project for Team 1. As a part of this project, we have learned the LIME method, applied this method to classifiers, and analyzed our findings. By the end of the project, we feel confident in our understanding of how LIME works and its applications to the real world. In this GitHub repo, we have attached our deliverables for parts 1-4 of the project, as well as the training and testing data we used to better understand what was happening under the hood. The following is a quick overview of where each of our deliverables are located in this repo.
+
+project is about explaining what machine learning classifiers (or models) are doing.
 At the moment, we support explaining individual predictions for text classifiers or classifiers that act on tables (numpy arrays of numerical or categorical data) or images, with a package called lime (short for local interpretable model-agnostic explanations).
 Lime is based on the work presented in [this paper](https://arxiv.org/abs/1602.04938) ([bibtex here for citation](https://github.com/marcotcr/lime/blob/master/citation.bib)). Here is a link to the promo video:
 
